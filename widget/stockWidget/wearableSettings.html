@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+	<head>
+		<meta name="viewport" content="user-scalable=no">
+	    <meta charset="utf-8"/>
+	    <meta name="description" content="StockInfoSettings"/>    
+		<title>Wearable Settings</title>
+		<link rel="stylesheet" href="./lib/tau/wearable/theme/default/tau.min.css" />
+	    <link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.css"/>    
+	    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" type="text/css" href="./css/settingsPage.css"/>
+	    <script type="text/javascript" src="./js/selectName.js"></script>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="symbolInput">
+					<input type="text" id="userInputStock" placeholder="Enter Stock Name...">
+					<button class="userSubmitButton buttonSettings" onclick="userSubmitStock()">Set Stock</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="deletePage">
+					<button class="userDeleteButton buttonSettings" onclick="deleteStockPage()">Delete</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="back">
+					<a href="index.html">Back</a>
+				</div>
+			
+			</div>
+		</div>
+		
+		
+	</body>
+</html>

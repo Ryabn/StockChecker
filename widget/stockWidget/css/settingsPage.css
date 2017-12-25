@@ -1,0 +1,27 @@
+body{
+	text-align: center;
+	background-color: black;
+	font-size: 48px;
+	color: white;
+}
+#userInputStock{
+	margin-top: 30px;
+	height: 70px;
+	font-size: 28px;
+	border-radius: 15px;
+}
+.buttonSettings{
+	font-size: 32px;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 5px 20px 5px 20px;
+	border:none;
+}
+.userSubmitButton{
+	color: white;
+	background-color: #00bf26;
+}
+.userDeleteButton{
+	color: black;
+	background-color: #ff0000;
+}

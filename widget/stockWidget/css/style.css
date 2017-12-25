@@ -1,0 +1,38 @@
+body{
+	text-align: center;
+	background-color: black;
+	font-size: 48px;
+	color: white;
+}
+#stockName{
+	text-align: center;
+	margin: 0;
+	width: 100%;	
+}
+#stockDataTime{
+	margin: 0;
+	font-size: 24px;
+}
+#stockPrice{
+	margin: 0;
+}
+.name{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.stockNameText{
+	color: white;
+	text-decoration: none;
+}
+.time{
+	margin-bottom: 10px;
+}
+.stockGraphic{
+	margin: auto;
+	height: 150px;
+	width: 300px;
+	text-align: center;
+}
+.price{
+	color: green;
+}
