@@ -13,27 +13,14 @@
 	    <script type="text/javascript" src="./js/selectName.js"></script>
 	</head>
 	
-	<body>
+	<body onload="load()">
 		<div class="container">
 			<div class="row">
 				<div class="symbolInput">
-					<input type="text" id="userInputStock" placeholder="Enter Stock Name...">
+					<input type="text" id="userInputStock" placeholder="Enter Symbol...">
 					<button class="userSubmitButton buttonSettings" onclick="userSubmitStock()">Set Stock</button>
 				</div>
 			</div>
-			<div class="row">
-				<div class="deletePage">
-					<button class="userDeleteButton buttonSettings" onclick="deleteStockPage()">Delete</button>
-				</div>
-			</div>
-			<div class="row">
-				<div class="back">
-					<a href="index.html">Back</a>
-				</div>
-			
-			</div>
 		</div>
-		
-		
 	</body>
 </html>
